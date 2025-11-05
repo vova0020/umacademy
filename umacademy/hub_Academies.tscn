@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://b8iqfad61jrpu"]
+
+[ext_resource type="PackedScene" uid="uid://d2lx50fcuywyt" path="res://bg.tscn" id="1_5fo5c"]
+[ext_resource type="PackedScene" uid="uid://cbq6v3aqtvpw6" path="res://hub_academi/logick.tscn" id="2_xvi8x"]
+[ext_resource type="PackedScene" uid="uid://c2cqkptql4nxa" path="res://hub_academi/nature.tscn" id="3_xvi8x"]
+[ext_resource type="PackedScene" uid="uid://ctovyfi3wwwof" path="res://hub_academi/city.tscn" id="4_yjtxp"]
+
+[node name="hub_Academies" type="Node2D"]
+
+[node name="BG" parent="." instance=ExtResource("1_5fo5c")]
+position = Vector2(-8, -7)
+
+[node name="logick" parent="." instance=ExtResource("2_xvi8x")]
+position = Vector2(564, 314)
+
+[node name="logick2" parent="." instance=ExtResource("3_xvi8x")]
+position = Vector2(882, 482)
+
+[node name="logick3" parent="." instance=ExtResource("4_yjtxp")]
+position = Vector2(219, 457)

@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bibiiufb0d1ij"]
+
+[ext_resource type="Texture2D" uid="uid://cfrumqjegif06" path="res://assets/accademi/logick/Generated Image November 05, 2025 - 3_28PM.png" id="1_ysyy5"]
+
+[node name="logic_hub" type="Node2D"]
+
+[node name="GeneratedImageNovember05,2025-328pm" type="Sprite2D" parent="."]
+position = Vector2(575.5, 326)
+scale = Vector2(0.859375, 0.851562)
+texture = ExtResource("1_ysyy5")

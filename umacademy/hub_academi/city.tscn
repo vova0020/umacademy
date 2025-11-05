@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=3 uid="uid://ctovyfi3wwwof"]
+
+[ext_resource type="Texture2D" uid="uid://dgcbcfmu14nv" path="res://assets/accademi/academiIcon/city.png" id="1_sqswo"]
+
+[node name="logick" type="Node2D"]
+
+[node name="City" type="Sprite2D" parent="."]
+position = Vector2(1, 1)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("1_sqswo")
+
+[node name="Label" type="Label" parent="City"]
+anchors_preset = -1
+anchor_left = -0.04
+anchor_top = 0.031
+anchor_right = -0.04
+anchor_bottom = 0.031
+offset_left = -316.24
+offset_top = 246.192
+offset_right = 425.76
+offset_bottom = 360.192
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 75
+text = "Академия города"

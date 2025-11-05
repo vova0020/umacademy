@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://rbhpmefp2453"]
+
+[ext_resource type="Texture2D" uid="uid://lu4k72kqfwqk" path="res://assets/accademi/nature/Generated Image November 05, 2025 - 3_39PM.png" id="1_ej56w"]
+
+[node name="nature_hub" type="Node2D"]
+
+[node name="GeneratedImageNovember05,2025-339pm" type="Sprite2D" parent="."]
+position = Vector2(577.656, 322.875)
+scale = Vector2(0.866583, 0.854492)
+texture = ExtResource("1_ej56w")

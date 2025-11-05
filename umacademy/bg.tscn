@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://d2lx50fcuywyt"]
+
+[ext_resource type="Texture2D" uid="uid://ccicvefd1rj8b" path="res://assets/startFon/Generated Image November 05, 2025 - 1_00PM (1).png" id="1_t4gw0"]
+[ext_resource type="Texture2D" uid="uid://dxgmi6poi7h50" path="res://assets/startFon/Generated Image November 05, 2025 - 2_54PM.png" id="2_tuaf8"]
+
+[node name="BG" type="Node2D"]
+
+[node name="GeneratedImageNovember05,2025-100pm(1)" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(578.5, 339)
+scale = Vector2(1.19043, 0.783203)
+texture = ExtResource("1_t4gw0")
+
+[node name="GeneratedImageNovember05,2025-254pm" type="Sprite2D" parent="."]
+position = Vector2(557, 367)
+scale = Vector2(0.927827, 0.967448)
+texture = ExtResource("2_tuaf8")
