@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://bibiiufb0d1ij"]
+[gd_scene load_steps=3 format=3 uid="uid://bibiiufb0d1ij"]
 
 [ext_resource type="Texture2D" uid="uid://cfrumqjegif06" path="res://assets/accademi/logick/Generated Image November 05, 2025 - 3_28PM.png" id="1_ysyy5"]
+[ext_resource type="PackedScene" uid="uid://055wimniearf" path="res://logick_Igra/baner/factory_order_baner.tscn" id="2_74yw0"]
 
 [node name="logic_hub" type="Node2D"]
 
@@ -8,3 +9,6 @@
 position = Vector2(575.5, 326)
 scale = Vector2(0.859375, 0.851562)
 texture = ExtResource("1_ysyy5")
+
+[node name="FactoryOrderBaner" parent="." instance=ExtResource("2_74yw0")]
+position = Vector2(196, 331)
